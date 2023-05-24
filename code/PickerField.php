@@ -136,7 +136,7 @@ class PickerField extends GridField {
 	        return;
 
 	    $form = new GridFieldDetailForm();
-	    $form->setItemRequestClass(PickerFieldEditHandler::class);
+	    //$form->setItemRequestClass(PickerFieldEditHandler::class);
 
 
 	    return $this->config->addComponent($form);
