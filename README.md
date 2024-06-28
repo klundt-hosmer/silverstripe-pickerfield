@@ -1,17 +1,16 @@
 Silverstripe 4 version of: https://github.com/briceburg/silverstripe-pickerfield
 With a few extra fixes.
 
-To use, add/update the following in `composer.json`
+----
+
+To use with Silverstripe 4.x, add this repository to composer.json
 ```
-{
-  "require": {
-    "thewebmen/silverstripe-pickerfield": "dev-bugfix-kh",
-  },
-  "repositories": [
+"repositories": [
     {
-      "type": "vcs",
-      "url": "https://github.com/klundt-hosmer/silverstripe-pickerfield"
+        "type": "vcs",
+        "url": "https://github.com/klundt-hosmer/silverstripe-pickerfield"
     }
-  ]
-}
+],
 ```
+then
+`composer require thewebmen/silverstripe-pickerfield:dev-bugfix-kh`
